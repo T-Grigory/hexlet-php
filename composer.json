@@ -1,0 +1,15 @@
+{
+    "name": "tydykov/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Grigory\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grigory Tydykov",
+            "email": "tydykov2022@mail.ru"
+        }
+    ],
+    "require": {}
+}
