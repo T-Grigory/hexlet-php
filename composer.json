@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Grigory\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +14,7 @@
             "email": "tydykov2022@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^8.34"
+    }
 }
